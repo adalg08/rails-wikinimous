@@ -9,6 +9,12 @@
   </head>
 
   <body>
-    <%= yield %>
+  <div class="container">
+    <div class="navbar text-center">
+      <h1><%= link_to "Titanpedia", articles_path %></h1>
+      <p float="right"><%= link_to "New article", new_article_path, class: 'btn btn-default' %></p>
+    </div>
+      <%= yield %>
+    </div>
   </body>
 </html>

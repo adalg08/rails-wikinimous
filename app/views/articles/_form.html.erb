@@ -1,0 +1,7 @@
+<%= form_for(@article) do |f| %>
+  <%= f.label :title %>
+  <%= f.text_field :title, class: 'form-control' %>
+  <%= f.label :content %>
+  <%= f.text_area :content, class: 'form-control', id: 'text-area' %>
+  <%= f.submit class: 'btn btn-default text-center', id: 'btn-submit' %>
+<% end %>

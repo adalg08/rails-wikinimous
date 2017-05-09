@@ -1,0 +1,26 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.article {
+  background: #f2f2f2;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.article h2 {
+  text-decoration: underline;
+}
+
+.article a {
+  color: #333;
+}
+.navbar a {
+  color: #333;
+}
+
+#text-area {
+  height: 300px;
+}
+#btn-submit {
+  margin-top: 10px;
+}
